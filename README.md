@@ -86,7 +86,7 @@ POST /upload/csv
 - Time-based trends
 ## Database Design
 
-- MySQL
+- Postgresql
 - JPA & Hibernate ORM
 - Entity relationships:
 - One Company → Many Bookings
