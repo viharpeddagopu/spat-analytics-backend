@@ -4,7 +4,7 @@ import com.SPATanalytics.backend.service.BookingIngestionService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/ingestion")
+@RequestMapping("/ingestion")
 public class IngestionController {
 
     private final BookingIngestionService ingestionService;
