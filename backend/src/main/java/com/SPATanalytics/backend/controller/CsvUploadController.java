@@ -10,7 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 @RestController
-@RequestMapping("/api/upload")
+@RequestMapping("/upload")
 public class CsvUploadController {
 
     private final BookingIngestionService ingestionService;
