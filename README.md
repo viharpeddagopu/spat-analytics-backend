@@ -3,6 +3,10 @@
 
 A scalable Spring Boot–based analytics backend for ticket booking platforms that aggregates bus ticket bookings data across multiple operators into one clear, real-time view.
 
+This project was built for a real travel organization, Amaravathi Travels, my father’s business—to analyze and manage bus ticket bookings through a modern analytics dashboard.
+
+Link to the org: ```https://www.sriamaravathitravels.com/index.html```
+
 The system ingests booking data from external sources, persists it in MySQL, and exposes REST APIs for analytics dashboards.
 
 
@@ -48,11 +52,10 @@ The ingestion layer is pluggable and can be replaced with:
 Examples:
 
 ```http
-GET /api/bookings
-GET /api/companies
-GET /api/dashboard/stats
-POST /api/ingest/csv
-POST /api/ingest/mock
+GET /bookings
+GET /companies
+GET /dashboard/stats
+POST /upload/csv
 ```
 <table>
   <tr>
@@ -101,6 +104,16 @@ JWT logic exists in backend but is not enabled in the main branch to keep the de
 - Spring Boot backend
 - MySQL database
   <img width="1590" height="642" alt="Image" src="https://github.com/user-attachments/assets/d9a323ae-e797-4715-9760-d88558997e41" />
+
+## Deployment
+
+Frontend deployed on Vercel
+
+🔗 Live Frontend: ``` https://spat-analytics-frontend-7onr.vercel.app/```
+
+Backend deployed on Render
+
+🔗 Backend API Base URL: ```https://spat-analytics-backend-1.onrender.com/```
   
 ## Run Locally
 
