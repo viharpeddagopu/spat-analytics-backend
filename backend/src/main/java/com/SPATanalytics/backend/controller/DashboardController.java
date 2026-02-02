@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 
 @RestController
-@RequestMapping("/api/dashboard")
+@RequestMapping("/dashboard")
 // Global CORS already configured
 public class DashboardController {
 
