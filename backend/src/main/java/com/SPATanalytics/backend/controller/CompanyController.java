@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/companies")
+@RequestMapping("/companies")
 //@CrossOrigin(origins = "http://localhost:5173") --> used a global CORS config
 public class CompanyController {
 
