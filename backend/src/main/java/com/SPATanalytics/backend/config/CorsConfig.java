@@ -11,7 +11,7 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
                 .allowedOrigins(
-                        "https://spat-analytics-frontend-7onr-ar90kia2n-viharpeddagopus-projects.vercel.app/",
+                        "spat-analytics-frontend-7onr.vercel.app",
                         "http://localhost:5173"
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
